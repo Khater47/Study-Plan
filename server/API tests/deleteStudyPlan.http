@@ -1,0 +1,24 @@
+DELETE http://localhost:3001/api/students/1/studyPlan HTTP/1.1
+content-type: application/json
+
+{
+    "studentCode": 1,
+    "id": 10,
+    "type": "part time",
+    "credits": 20,
+    "courses": 
+    [
+        {
+            "code": "02LSEOV",
+            "name": "Computer architectures",
+            "description":"",
+            "credits": 12
+        },
+        {
+            "code": "01SQLOV",
+            "name": "Database systems",
+            "description":"",
+            "credits": 8
+        }
+    ]
+}

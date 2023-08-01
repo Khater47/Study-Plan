@@ -1,0 +1,35 @@
+POST http://localhost:3001/api/students/1/studyPlan HTTP/1.1
+content-type: application/json
+
+{
+    "studentCode": 1,
+    "type": "full time",
+    "credits": 38,
+    "courses": 
+    [
+        {
+            "code": "02LSEOV",
+            "name": "Computer architectures",
+            "description":"",
+            "credits": 12
+        },
+        {
+            "code": "01SQLOV",
+            "name": "Database systems",
+            "description":"",
+            "credits": 8
+        },
+        {
+            "code": "01OTWOV",
+            "name": "Computer network technologies and services",
+            "description":"",
+            "credits": 6
+        },
+        {
+            "code": "01TYMOV",
+            "name": "Information systems security services",
+            "description":"",
+            "credits": 12
+        }
+    ]
+}

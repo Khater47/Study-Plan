@@ -1,0 +1,32 @@
+{
+    "studentCode": 1,
+    "type": "full time",
+    "credits": 60,
+    "courses": 
+    [
+        {
+            "code": "02LSEOV",
+            "name": "Computer architectures",
+            "description":"",
+            "credits": 12
+        },
+        {
+            "code": "01SQLOV",
+            "name": "Database systems",
+            "description":"",
+            "credits": 8
+        },
+        {
+            "code": "01OTWOV",
+            "name": "Computer network technologies and services",
+            "description":"",
+            "credits": 6
+        },
+        {
+            "code": "01TYMOV",
+            "name": "Information systems security services",
+            "description":"",
+            "credits": 12
+        }
+    ]
+}
